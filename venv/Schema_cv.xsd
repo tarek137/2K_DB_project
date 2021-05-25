@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ws="http://www.w3.org/2001/XMLSchema">
+<xs:element name="CV" type="cvType"/>
+<xs:complexType name='cvType'>
+<xs:sequence>
+    <xs:element name='titre' type='xs:string'/>
+    <xs:element name='cvnom' type='xs:string'/>
+    <xs:element name='EtatCivil' type="typeEtatcivil"/>
+    <xs:element name='Formation' type ="typeFormation"/>
+
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="typeEtatcivil">
+    <xs:sequence>
+        <xs:element name='Nom' type='xs:string'/>
+        <xs:element name='Prenom' type='xs:string'/>
+        <xs:element name='Naissance' type='xs:date'/>
+        <xs:element name='Situation' type="typeSituation"/>
+    </xs:sequence>
+</xs:complexType>
+
+    <xs:complexType name="typeFormation">
+        <xs:attribute name="Formation" type="xs:string"/>
+    </xs:complexType>
+
+<xs:simpleType name="typeSituation">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="Married"></xs:enumeration>
+        <xs:enumeration value="Single" ></xs:enumeration>
+        <xs:enumeration value="Single" ></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>
+
+
