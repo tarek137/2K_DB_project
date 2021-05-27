@@ -6,7 +6,7 @@ import sqlalchemy
 import urllib
 import time
 
-
+#fix variables
 player_names = []
 player_teams = []
 player_positions =[]
