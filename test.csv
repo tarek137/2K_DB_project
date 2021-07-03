@@ -1,0 +1,31 @@
+,Name,Team,Color,Position,Speed,Three_points,Steal,Passing,Defensive_Rebound,Offensive_Rebound,Perimeter_Defense,Interior_Defense,Block
+0,Blake Griffin,Los Angeles Clippers,dark_matter,PF<!-- -->/PG,99,98,99,98,99,99,97,,99
+1,Dwight Howard,Orlando Magic,dark_matter,C<!-- -->/PF,99,98,99,97,99,99,99,,99
+2,Giannis Antetokounmpo,Milwaukee Bucks,dark_matter,PF<!-- -->/SF,99,96,99,99,99,99,99,,99
+3,Shaquille O'Neal,Los Angeles Lakers,dark_matter,C<!-- -->/PF,99,98,99,98,99,99,99,,99
+4,Carmelo Anthony,'12 Team USA,dark_matter,SF<!-- -->/SG,99,99,97,98,99,99,98,,97
+5,Larry Bird,'12 Team USA,dark_matter,PF<!-- -->/SF,97,99,98,99,99,99,99,,98
+6,Scottie Pippen,'12 Team USA,dark_matter,SF<!-- -->/SG,99,99,99,99,98,98,99,,99
+7,Bol Bol,Denver Nuggets,dark_matter,PF<!-- -->/SF,99,99,99,99,99,99,99,,99
+8,David Robinson,'12 Team USA,dark_matter,C<!-- -->/PF,98,98,99,97,99,99,99,,99
+9,Stephen Curry,Golden State Warriors,dark_matter,PG<!-- -->/SG,99,99,97,99,98,98,99,,97
+10,Dirk Nowitzki,Dallas Mavericks,dark_matter,PF<!-- -->/C,96,99,99,98,99,99,99,,99
+11,Magic Johnson,Los Angeles Lakers,dark_matter,PG<!-- -->/C,99,98,97,99,98,98,98,,97
+12,LeBron James,Cleveland Cavaliers,dark_matter,SF<!-- -->/PF,99,98,97,99,97,97,99,,97
+13,Derrick Rose,Chicago Bulls,dark_matter,PG<!-- -->/SG,99,99,98,99,98,98,99,,98
+14,Michael Jordan,Chicago Bulls,dark_matter,PG<!-- -->/SG,99,99,97,97,97,97,99,,97
+15,Oscar Robertson,Sacramento Kings,dark_matter,SG<!-- -->/PG,99,99,99,99,99,99,99,,99
+16,Kareem Abdul-Jabbar,Milwaukee Bucks,dark_matter,C<!-- -->/PF,98,97,99,97,99,99,99,,99
+17,Kevin Durant,Oklahoma City Thunder,dark_matter,SF<!-- -->/SG,99,99,99,98,98,98,99,,99
+18,Tim Duncan,San Antonio Spurs,dark_matter,PF<!-- -->/C,96,97,99,98,99,99,99,,99
+19,Jayson Tatum,Boston Celtics,dark_matter,SF<!-- -->/PF,99,99,99,99,99,99,99,,99
+20,Kevin Garnett,Minnesota Timberwolves,dark_matter,PF<!-- -->/C,97,98,99,96,99,99,99,,99
+21,Bill Russell,Boston Celtics,dark_matter,C<!-- -->/PF,99,98,99,99,99,99,99,,99
+22,Moses Malone,Houston Rockets,dark_matter,C<!-- -->/PF,97,97,99,97,99,99,99,,99
+23,James Harden,Houston Rockets,dark_matter,SG<!-- -->/PG,99,99,98,99,99,99,98,,98
+24,Allen Iverson,Philadelphia 76ers,dark_matter,SG<!-- -->/PG,99,99,97,99,98,98,99,,97
+25,Tracy McGrady,Orlando Magic,dark_matter,SG<!-- -->/SF,99,99,99,97,97,97,99,,99
+26,Kobe Bryant,Los Angeles Lakers,dark_matter,SG<!-- -->/SF,99,99,97,99,96,96,99,,97
+27,Dwyane Wade,Miami Heat,dark_matter,SG<!-- -->/PG,99,99,99,99,97,97,99,,99
+28,Luka Doncic,Dallas Mavericks,dark_matter,PG<!-- -->/SG,98,99,97,99,99,99,98,,97
+29,Dominique Wilkins,Atlanta Hawks,dark_matter,SG<!-- -->/SF,97,96,92,92,88,88,95,,92
