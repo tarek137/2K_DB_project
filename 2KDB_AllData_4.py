@@ -16,7 +16,7 @@ homePage.AgreeHandle()
 
 nb = int(homePage.getnumberpages()[-4:-1])
 
-for j in tqdm(range(nb)):
+for j in tqdm(range(3)):
 
 
     players_list = homePage.getPlayersList()
@@ -37,7 +37,7 @@ for j in tqdm(range(nb)):
     homePage.previousPage()
     homePage.nextPage(j)
     players_links =[]
-    print("Page" +str(j)+" done")
+    print("Page "+str(j)+" done")
     time.sleep(3)
 
 
@@ -46,5 +46,7 @@ data.Store_dataframe()
 data.player_df.to_csv('test.csv')
 
 print(data.player_df.head(5))
+
+data.transfer_to_database()
 
 driver.close()

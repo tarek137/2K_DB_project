@@ -1,8 +1,9 @@
 import PlayerPage
 from PlayerPage import PlayerPage
 import pandas as pd
-from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
+import sqlalchemy
+import urllib
+
 
 
 
@@ -114,10 +115,22 @@ class Data:
                        "Passing": Data.player_Passing,
                        "Defensive_Rebound": Data.player_Drebound, "Offensive_Rebound": Data.player_Orebound,
                        "Perimeter_Defense": Data.player_Pdefense,
-                       "Interior_defense": Data.player_Idefense, "Block": Data.player_Block}
+                       "Interior_defense": Data.player_Idefense, "Block_rate": Data.player_Block}
 
         Data.player_df = pd.DataFrame(Data.player_base, columns=["Name", "Team", "Color", "Position", "Speed", "Three_points", "Steal",
                                              "Passing", "Defensive_Rebound", "Offensive_Rebound", "Perimeter_Defense",
-                                             "Interior_Defense", "Block"])
+                                             "Interior_Defense", "Block_rate"])
 
         return  Data.player_df
+
+
+    def transfer_to_database(self):
+
+        quoted = urllib.parse.quote_plus('Driver={SQL Server};'
+                                         'Server=LAPTOP-D9IVA0RT;'
+                                         'Database=2K_DB;'
+                                         'Trusted_Connection=yes;')
+        engine = sqlalchemy.create_engine('mssql+pyodbc:///?odbc_connect={}'.format(quoted))
+
+        Data.player_df.to_sql("Players", engine, if_exists='append')
+
