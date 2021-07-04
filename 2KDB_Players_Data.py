@@ -17,7 +17,7 @@ homePage.AgreeHandle()
 
 nb = int(homePage.getnumberpages()[-4:-1])
 
-for j in tqdm(range(nb)):
+for j in tqdm(range(nb - 1)):
 
 
     players_list = homePage.getPlayersList()
