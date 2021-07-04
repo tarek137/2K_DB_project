@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5cae5a11-044f-46d2-9672-9b9ec4a29591" name="Default Changelist" comment="only for test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.2KDB_Players_Data_">
+  <component name="RunManager" selected="Python.main">
     <configuration name="2KDB_AllData_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +181,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2KDB_Players_Data_" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.2KDB_AllData_4" />
         <item itemvalue="Python.2KDB_AllData_2" />
