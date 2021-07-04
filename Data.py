@@ -85,7 +85,7 @@ class Data:
         return Data.Name , Data.Color , Data.Team , Data.Position , Data.Speed , Data.Shot_threepoint , Data.Pdefense , Data.Idefense , Data.Passing , Data.Block , Data.Steal , \
            Data.Orebound, Data.Drebound
 
-
+    #storing player attributes in lists
     def Process_Data ( self , Name, Color ,Team , Position , Speed , Shot_threepoint ,
         Pdefense  , Idefense , Passing , Block, Steal  ,Orebound , Drebound ) :
 
@@ -107,6 +107,7 @@ class Data:
             Data.player_colors ,Data.player_steal,Data.player_Passing,Data.player_Drebound,Data.player_Orebound,\
             Data.player_Pdefense, Data.player_Block, Data.player_Idefense
 
+    #collected data is stored in a dictionary of lists before being converted into dataframe
     def Store_dataframe(self):
 
         Data.player_base = {"Name": Data.player_names, "Team": Data.player_teams, "Color": Data.player_colors,
@@ -123,7 +124,7 @@ class Data:
 
         return  Data.player_df
 
-
+    #sending data to local MS SQL server database
     def transfer_to_database(self):
 
         quoted = urllib.parse.quote_plus('Driver={SQL Server};'

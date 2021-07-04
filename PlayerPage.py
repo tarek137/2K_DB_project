@@ -23,6 +23,7 @@ class PlayerPage:
     def __init__(self,driver):
         self.driver = driver
 
+    #find  player Name
     def getPlayerName(self):
         self.driver.implicitly_wait(15)
         try:
@@ -35,51 +36,61 @@ class PlayerPage:
 
 
 
-
+    #find player card color based on the link of the image logo
     def getPlayerImage(self):
         Image_player = self.driver.find_element(*PlayerPage.ob_imarge_source).get_attribute("src")
         return Image_player
 
+    #find player speed attribute
     def getPlayerSpeed(self):
         Speed = self.driver.find_element(*PlayerPage.ob_Speed).get_attribute("innerHTML")
         return Speed
-
+    #find player three points rating
     def getPlayerShothreepts(self):
         Shotthreepts = self.driver.find_element(*PlayerPage.ob_Shot_threepoint).get_attribute("innerHTML")
         return Shotthreepts
 
+    #find player perimeter defense
     def getPlayerPDefense(self):
         PDefense = self.driver.find_element(*PlayerPage.ob_Pdefense).get_attribute("innerHTML")
         return PDefense
 
+    #find player Interior defense
     def getPlayerIDefense(self):
         IDefense = self.driver.find_element(*PlayerPage.ob_Idefense).get_attribute("innerHTML")
         return IDefense
 
+    #find player passing attribute
     def getPlayerPassing(self):
         Passing = self.driver.find_element(*PlayerPage.ob_Passing).get_attribute("innerHTML")
         return Passing
 
+    #find player Blcok attribute
     def getPlayerBlock(self):
         Block =  self.driver.find_element(*PlayerPage.ob_Block).get_attribute("innerHTML")
         return Block
 
+    #find player steal attribute
     def getPlayerSteal(self):
         Steal = self.driver.find_element(*PlayerPage.ob_Steal).get_attribute("innerHTML")
         return Steal
 
+    #find Offensive rebound attribute
     def getPlayerOrebound(self):
         Orebound =self.driver.find_element(*PlayerPage.ob_Orebound).get_attribute("innerHTML")
         return Orebound
 
+    #find defensive rebound attribute
     def getPlayerDrebound(self):
         Drebound = self.driver.find_element(*PlayerPage.ob_Drebound).get_attribute("innerHTML")
         return Drebound
 
+    #find player's team
     def getPlayerTeam(self):
         Team = self.driver.find_element(*PlayerPage.ob_Team).get_attribute("innerHTML")
         return Team
 
+    #find player position
     def getPlayerPosition(self):
         Position = self.driver.find_element(*PlayerPage.ob_Position).get_attribute("innerHTML")
         return Position
