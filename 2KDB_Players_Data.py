@@ -3,6 +3,7 @@ import time
 from Data import Data
 from HomePage import HomePage
 from tqdm import tqdm
+from selenium.common.exceptions import TimeoutException
 
 players_links = []
 
@@ -25,8 +26,13 @@ for j in tqdm(range(nb)):
         players_links.append(link.get_attribute("href"))
 
     for i in range(len(players_links)):
-
+        try:
+            driver.get(players_links[i])
+        except: TimeoutException
+        driver.refresh()
         driver.get(players_links[i])
+
+
         data.Collect_player_data()
         data.Process_Data(data.Name, data.Color ,data.Team , data.Position , data.Speed , data.Shot_threepoint ,
                           data.Pdefense,data.Idefense , data.Passing , data.Block, data.Steal ,data.Orebound ,
