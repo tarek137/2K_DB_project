@@ -6,7 +6,7 @@ import sqlalchemy
 import urllib
 import time
 
-
+#fix variables
 player_names = []
 player_teams = []
 player_positions =[]
@@ -27,9 +27,9 @@ while True:
     driver.get("http://www.2kdb.net")
     driver.maximize_window()
     driver.implicitly_wait(15)
-    time.sleep(5)
+
     try:
-        driver.find_element_by_css_selector("#qc-cmp2-ui > div.qc-cmp2-footer.qc-cmp2-footer-overlay.qc-cmp2-footer-scrolled > div > button.css-1tbbj19").click()
+        driver.find_element_by_xpath('//button[@aria-label="AGREE"]').click()
     except : NoSuchElementException
     pass
 
