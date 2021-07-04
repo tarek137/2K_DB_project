@@ -1,4 +1,4 @@
-,Name,Team,Color,Position,Speed,Three_points,Steal,Passing,Defensive_Rebound,Offensive_Rebound,Perimeter_Defense,Interior_Defense,Block
+,Name,Team,Color,Position,Speed,Three_points,Steal,Passing,Defensive_Rebound,Offensive_Rebound,Perimeter_Defense,Interior_Defense,Block_rate
 0,Blake Griffin,Los Angeles Clippers,dark_matter,PF<!-- -->/PG,99,98,99,98,99,99,97,,99
 1,Dwight Howard,Orlando Magic,dark_matter,C<!-- -->/PF,99,98,99,97,99,99,99,,99
 2,Giannis Antetokounmpo,Milwaukee Bucks,dark_matter,PF<!-- -->/SF,99,96,99,99,99,99,99,,99
@@ -29,3 +29,18 @@
 27,Dwyane Wade,Miami Heat,dark_matter,SG<!-- -->/PG,99,99,99,99,97,97,99,,99
 28,Luka Doncic,Dallas Mavericks,dark_matter,PG<!-- -->/SG,98,99,97,99,99,99,98,,97
 29,Dominique Wilkins,Atlanta Hawks,dark_matter,SG<!-- -->/SF,97,96,92,92,88,88,95,,92
+30,Tacko Fall,Boston Celtics,dark_matter,C,96,95,99,96,99,99,96,,99
+31,Chris Webber,Sacramento Kings,dark_matter,PF<!-- -->/SF,95,94,95,94,99,99,88,,95
+32,Ben Wallace,Detroit Pistons,dark_matter,C<!-- -->/PF,95,95,99,88,99,99,98,,99
+33,Antawn Jamison,Washington Wizards,dark_matter,PF<!-- -->/SF,95,94,95,88,97,97,95,,95
+34,Thurl Bailey,Utah Jazz,dark_matter,PF<!-- -->/SF,96,88,94,86,89,86,93,,94
+35,Kawhi Leonard,San Antonio Spurs,dark_matter,SF<!-- -->/SG,97,97,98,90,90,88,99,,98
+36,Kyle Kuzma,Los Angeles Lakers,dark_matter,PF<!-- -->/SF,93,94,90,84,92,92,95,,90
+37,Andrei Kirilenko,Utah Jazz,dark_matter,SG<!-- -->/PG,95,95,99,96,95,95,99,,99
+38,Danny Granger,Indiana Pacers,dark_matter,C<!-- -->/PF,97,97,91,91,94,94,94,,91
+39,Joel Embiid,Philadelphia 76ers,dark_matter,C<!-- -->/PF,94,95,98,86,98,98,93,,98
+40,Karl Malone,'12 Team USA,dark_matter,PF<!-- -->/C,96,94,97,88,98,98,95,,97
+41,Zach LaVine,Minnesota Timberwolves,dark_matter,SG<!-- -->/PG,97,96,88,92,87,85,94,,88
+42,Patrick Ewing,'12 Team USA,dark_matter,C<!-- -->/PF,93,92,97,85,97,97,93,,97
+43,James Harden,'12 Team USA,dark_matter,SG<!-- -->/PG,97,98,85,97,93,93,96,,85
+44,Clint Capela,Atlanta Hawks,dark_matter,C<!-- -->/PF,91,79,98,84,98,98,90,,98
