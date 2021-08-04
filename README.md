@@ -11,3 +11,6 @@ The 2K_DB_projet is composed of three main blocks :
 1) Extracting data from 2kdb.net website
 2) Storing collected Data to local MS SQL server database 
 3) Analyzing collected Data 
+
+
+(work on progress) 
